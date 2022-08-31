@@ -20,6 +20,8 @@ header{
     color:rgb(255, 255, 255);
     text-align:center;
     grid-area:1/2/2/6;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:28px;
 }
 .logo{
     max-width:100px;
@@ -85,7 +87,12 @@ main{
     max-width:200px;
 }
 .form{
-    grid-area:3/1/7/2
+    grid-area:3/1/7/2;
+    text-align:center;
+    align-items:center;
+    width:200px;
+    height:900px;
+    
 }
 footer{
     max-width:100%;
