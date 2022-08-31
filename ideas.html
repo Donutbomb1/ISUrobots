@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="" />
+    <link rel="stylesheet" type="text/css" href="robot_site.css" />
     <title>ISU Robotics Club</title>
 </head>
 <header>
@@ -12,11 +12,26 @@
     <h1 class = welcome>Welcome to the Idaho State University Robotics Club!</h1>
 </header>
 <body>
-    <section>
-        <a href = ''>Submit your ideas and stuff here</a>
+    <section class = form>
+        <form action="https://formsubmit.co/robotclub837@gmail.com"method = post>
+    
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
     </section>
-</body>
-<footer>
-    <p></p>
-</footer>
+    <footer>
+        <section class = leaders>
+            <h3>Club leadership</h3>
+            <p class = president>President:</p>
+            <p class = Vice>VP:</p>
+            <p class = Treasurer>Treasurer</p>
+            <p class = Web>Website Supremest Overlord:</p>
+    </footer>
+    </body>
 </html>

@@ -84,6 +84,9 @@ main{
 .us{
     max-width:200px;
 }
+.form{
+    grid-area:3/1/7/2
+}
 footer{
     max-width:100%;
     max-height:200px;
