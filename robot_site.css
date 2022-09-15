@@ -39,9 +39,10 @@ main{
     max-width:20;
     max-height:50%;
     grid-row:1/6;
-    grid-column:1/6;
+    grid-column:1/2;
     color:rgb(255, 255, 255);
-    border: 10px;
+    background-color:orange;
+    border-width: 10px;
 }
 .aboutus{
     max-height:200px;
@@ -53,9 +54,10 @@ main{
 
 }
 .robot{
-    max-height:300px;
-    max-width:300px;
+    max-height:400px;
+    max-width:400px;
     grid-area:1/8/1/9;
+    justify-self:center;
 }
 .ourprojects{
     max-height:100%;
