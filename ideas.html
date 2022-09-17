@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="robot_site.css" />
-    <title>ISU Robotics Club</title>
-</head>
-<header>
-    <img class = logo src = Images/logo2.jpg>
-    <h1 class = welcome>Welcome to the Idaho State University Robotics Club website!</h1>
-</header>
-<body>
-    <section class = form>
-        <form action="https://formsubmit.co/robotclub837@gmail.com"method = post>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="robotics_club.css" />
+        <title>ISU Robotics Club</title>
+    </head>
+    <body>
+        <header>
+        <img class = logo src = Images/logo2.jpg>
+            <nav class="nav_bar">
+                <a class = homepage href="index.html">Home</a>
+                <a class = contact href="ideas.html">Contact</a>
+                <a class = projects href=''>Projects</a>
+            </nav>
+            <h1 class = welcome>IDAHO STATE ROBOTICS CLUB</h1>
+        </header>
+        <main>
+            <form action="https://formsubmit.co/robotclub837@gmail.com"method = post>
     
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
         
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-            <label for="subject">Message</label>
-            <textarea id="subject" name="subject" placeholder="Write something interesting..." style="height:200px"></textarea>
-            <!-- <label for="file">memes for meme of the week</label>
-            <input type="file" id="meme"> -->
-            <input type="submit" value="Submit">
-            <p class = email>Or you can e-mail us at robotclub836@gmail.com</p>
-    </section>
-    <footer>
-        <section class = leaders>
-            <h3>Club Officers</h3>
-            <p class = officers>President: Morgan Puckett Vice President:Miranda Breves Secretary:Isabella Dougherty Carson Bogart Treasurer: Website Overlord: Kyle Stalker</p>
-    </footer>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something interesting..." style="height:200px"></textarea>
+                <!-- <label for="file">memes for meme of the week</label>
+                <input type="file" id="meme"> -->
+                <input type="submit" value="Submit">
+                <p class = email>Or you can e-mail us at robotclub836@gmail.com</p>
+                </main>
+        <footer>
+            <section class = leaders>
+                <h3>Officers</h3>
+                <p class = officers>President: Morgan Puckett Vice President:Miranda Breves Secretary:Isabella Dougherty Carson Bogart Treasurer: Website Overlord: Kyle Stalker</p>
+            </section>
+        </footer>
     </body>
 </html>
